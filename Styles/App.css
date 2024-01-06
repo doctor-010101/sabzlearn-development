@@ -1,4 +1,4 @@
-
+@import url(./variables.css);
 
 /*          ---------- Start default styles ----------         */
 
@@ -14,9 +14,24 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+}
+
 a {
-text-decoration: none;
-color: var(--dark-color);
+    text-decoration: none;
+    color: var(--dark-color);
+    transition: all 400ms ease;
+}
+
+a:hover {
+    color: #1e83f0;
+}
+
+i {
+    user-select: none;
 }
 
 
@@ -25,8 +40,4 @@ color: var(--dark-color);
 
 
 
-
-
 /*          ---------- Finish default styles ----------         */
-
-
