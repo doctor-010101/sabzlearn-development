@@ -1,6 +1,7 @@
 :root {
-    --main-font: ;
-    --primary-color: ;
-    --secondary-color: ;
+    --primary-font: 'IRANSansX';
+    --primary-color: #2bce56;
+    --white-color: #ffffff;
+    --dark-color: #464749;
 
 }
