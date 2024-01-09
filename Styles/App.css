@@ -1,6 +1,8 @@
-@import url(./variables.css);
+@import "variables.css";
+@import "fonts.css";
 
-/*          ---------- Start default styles ----------         */
+
+/*---------- Start default styles ----------*/
 
 html {
     box-sizing: border-box;
@@ -34,10 +36,8 @@ i {
     user-select: none;
 }
 
+p {
+    font-family: var(--primary-font);
+}
 
-
-
-
-
-
-/*          ---------- Finish default styles ----------         */
+/*---------- Finish default styles ----------*/
