@@ -31,10 +31,11 @@
 }
 
 .top-bar__email,
-.top-bar__phone{
+.top-bar__phone {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .top-bar__email-icon,
