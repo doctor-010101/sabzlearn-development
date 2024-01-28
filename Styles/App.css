@@ -3,9 +3,9 @@
 @import url(./top-bar.css);
 
 
-/*---------- Start default styles ----------*/
 
 
+/*---------- Default styles ----------*/
 
 
 html {
@@ -46,4 +46,81 @@ p {
 
 
 
-/*---------- End default styles ----------*/
+/*---------- Main header styles ----------*/
+
+
+.main-header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+}
+
+
+
+
+/*---------- Main header right styles ----------*/
+/*---------- Main header left styles ----------*/
+
+
+.main-header__left {
+    display: flex;
+    align-items: center;
+}
+
+.main-header__search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+}
+
+.main-header__search-icon {
+    color: var(--white-color);
+    font-size: 2.2rem;
+}
+
+.main-header__cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    background-color: #f0f2f7;
+}
+
+.main-header__cart-btn:hover {
+    color: #1e83f0;
+}
+
+.main-header__cart-icon {
+    color: var(--dark-color);
+    font-size: 2.2rem;
+    transition: all 400ms ease;
+}
+
+.main-header__profile {
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    transition: all 400ms ease;
+    color: var(--primary-color);
+}
+
+.main-header__profile:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+
+
+
+/*---------- Start main header styles ----------*/
