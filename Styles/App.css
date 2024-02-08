@@ -194,3 +194,57 @@ p {
     color: var(--white-color);
     height: 4.3rem;
 }
+
+
+
+
+/*---------- Landing styles ----------*/
+
+
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background_landing.jfif) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 9rem 0;
+    color: var(--white-color);
+}
+
+.landing__title {
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.landing__subtitle {
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+.landing__searchbar {
+    width: 700px;
+    position: relative;
+    margin: 3.5rem auto;
+}
+
+.landing__searchbar-input {
+    width: 100%;
+    padding: 2.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.landing__searchbar-btn {
+    border: none;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 1rem;
+    width: 6rem;
+    top: 0.7rem;
+    height: 6rem;
+    border-radius: 1rem;
+}
+
+.landing__searchbar-icon {
+    font-size: 2.8rem;
+    color: var(--white-color);
+}
