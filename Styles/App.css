@@ -2,46 +2,11 @@
 @import url(./fonts.css);
 @import url(./top-bar.css);
 @import url(./nav-bar.css);
+@import url(./defaults.css);
 
 
 
-/*---------- Default styles ----------*/
 
-
-html {
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-
-*,
-*::after,
-*::before {
-    outline: none;
-    box-sizing: inherit;
-}
-
-body {
-    line-height: 1.6;
-    font-size: 1.6rem;
-    font-family: var(--primary-font);
-}
-
-a {
-    text-decoration: none;
-    color: var(--dark-color);
-}
-
-a:hover {
-    color: #1e83f0;
-}
-
-i {
-    user-select: none;
-}
-
-p {
-    font-family: var(--primary-font);
-}
 
 
 /*---------- Landing styles ----------*/
